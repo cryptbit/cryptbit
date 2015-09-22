@@ -1,0 +1,9 @@
+Building Cryptbit
+
+See doc/readme-qt.rst for instructions on building Cryptbit QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Cryptbit.
+
+See doc/build-*.txt for instructions on building cryptbitd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Cryptbit.
