@@ -29,7 +29,7 @@ extern const std::string I2P_NATIVE_DATE;
 //
 // database format versioning
 //
-static const int DATABASE_VERSION = 70509;
+static const int DATABASE_VERSION = 70510;
 
 //
 // network protocol versioning
