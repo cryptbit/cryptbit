@@ -215,8 +215,20 @@ clean:
 	-rm -f cryptbitd
 	-rm -f obj/*.o
 	-rm -f obj/*.P
-	rm -f obj/crypto/*.o
-	rm -f obj/crypto/*.P
+	-rm -f obj/crypto/*.o
+	-rm -f obj/crypto/*.P
 	-rm -f obj/build.h
+	-rm -f leveldb/libleveldb.a
+	-rm -f leveldb/libmemenv.a
+	-rm -f leveldb/helpers/*.o
+	-rm -f leveldb/helpers/memenv/memenv.o
+	-rm -f leveldb/table/*.o
+	-rm -f leveldb/util/*.o
+	-rm -f leveldb/db/*.o
+	-rm -f leveldb/port/*.o
+	-rm -f leveldb/build_config.mk
+	-rm -rf leveldb/ios-x86/* 
+	-rm -rf leveldb/ios-arm/*
+
 
 FORCE:
